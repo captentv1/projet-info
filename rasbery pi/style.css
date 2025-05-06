@@ -1,0 +1,79 @@
+body{
+    background-image:url("computer-circuit-abstract-background-texture-close-up-image-of-board_9978606.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px; /* Increase the text size */
+}
+.navbar{
+    display: flex;
+    justify-content: center; /* Center align the links in the navbar */
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 12.5px 30px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+    border-radius: 100px;
+}
+.section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+.section img {
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+    max-width: 25%; /* Further reduce the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -30px; /* Move the image slightly more upwards */
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar a:not(.cta-button){
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar a:not(.cta-button):hover{
+    background-color: rgba(255,255,252,0.1);
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0; /* Align image to the right */
+    width: 100%; /* Expand the image to full width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 40%; /* Further reduce the image size */
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%; /* Adjust image size for smaller screens */
+    }
+
+    body {
+        padding: 10px; /* Add padding for smaller screens */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: flex-start;
+    }
+
+    .section {
+        margin: 10px; /* Reduce margin for smaller screens */
+    }
+}

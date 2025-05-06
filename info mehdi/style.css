@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+    max-width: 1000px; /* Limiter la largeur globale du contenu */
+    margin: 0 auto; /* Centrer le contenu */
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Augmenter la taille des titres */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px; /* Augmenter la taille des paragraphes */
+    line-height: 1.8; /* Espacement entre les lignes */
+    max-width: 900px; /* Limiter la largeur du texte */
+    margin: 0 auto; /* Centrer les paragraphes */
+    padding-bottom: 20px; /* Ajouter de l'espace sous chaque paragraphe */
+    color: #555; /* Couleur légèrement grise pour le texte */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px; /* Ajouter un rayon de bordure */
+  }
